@@ -1,0 +1,396 @@
+/* Gnuplotting style file
+ *
+ * It uses bootstrap.css as a basis
+ */
+
+/* Typography
+-------------------------------------------------------------------------- */
+body {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Tahoma", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #393318;
+}
+/* Font for entry titles */
+h1, body .entry .title { 
+font-family: "Times New Roman", "Times", serif;
+font-size: 220%;
+font-weight: 400;
+line-height: 120%;
+}
+/* Links color */
+a {
+  color: #006a80;
+}
+a:hover {
+  color: #a8001c;
+}
+/* Center a bunch of text */
+.center { text-align: center; }
+li.right { float: right; display: block; }
+li.left { float: left; display: block; }
+/* Distance between main entries and navbar */
+section {
+  padding-top: 34px
+}
+
+
+/* Navigation
+-------------------------------------------------------------------------- */
+.nav {
+  margin: -1px 0 0px 0;
+  -webkit-border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  border: 1px solid #DDDDDD;
+  border-radius: 0 0 3px 3px;
+  border-top-width: 0px;
+  background-color: #FBFBFB;
+  background-image: -o-linear-gradient(top, #FFFFFF, #F5F5F5);
+  list-style: none outside none;
+  padding: 0px 14px;
+}
+/* Alternative color scheme for the menu link */
+.nav a {
+  /* color: #0069d6; */
+}
+.nav a:hover {
+  color: #a8001c;
+}
+.nav > li > a {
+  border-radius: 0;
+  margin: 0px;
+  padding-right: 14px;
+  padding-bottom: 11px;
+  padding-top: 12px;
+}
+
+.nav-pills > .active > a {
+  color: #8fbf60;
+  background-color: transparent;
+}
+.nav-pills > .active > a:hover {
+  /*color: #8FBF60;*/
+  color: #a8001c;
+  background-color: #eee;
+}
+.dropdown-menu li > a:hover {
+  background-color: #0087A3;
+}
+/* Gnuplotting brand */
+.nav .brand {
+  font-family: "Times New Roman", "Times", serif;
+  font-size: 180%;
+  font-weight: 400;
+  line-height: 18px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+.nav .brand a:hover {
+  color: #006a80;
+  background-color: transparent;
+}
+
+/* Single blog entry
+-------------------------------------------------------------------------- */
+/* Title of single entry */
+.page-header {
+  margin-bottom: 0px;
+  padding-bottom: 8px;
+}
+.page-header h1 {
+  /* text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5059); */
+  margin-bottom: 0px;
+}
+.page-header a {
+  color: #0087a3;
+}
+.page-header a:hover {
+  color: #b3001e;
+}
+.post {
+  margin-left: 20px;
+  margin-bottom: 35px;
+}
+/* Color of "date" and "Tags:" */
+.post p.date {
+  color: #828282;
+  margin-bottom: 12px;
+}
+.post p.postmetadata {
+  color: #808080;
+}
+
+
+/* Code higlighting (within text)
+-------------------------------------------------------------------------- */
+code {
+  background-color: #EEFFCC;
+  border: none;
+  line-height: 20px;
+  color: #393318;
+}
+
+
+/* Footer
+-------------------------------------------------------------------------- */
+.footer_art {
+  background: transparent url('img/spectroscopy.png') no-repeat;
+  height: 150px;
+}
+footer {
+  font-size: 80%;
+  background: #eee;
+  border: none;
+  margin-top: 0;
+  padding-top: 10px;
+  line-height: 14px;
+}
+footer li { line-height: 16px; }
+footer .noise {
+  background: transparent url('img/noise.png') top repeat-x;
+  margin-top: -50px;
+  height: 50px;
+}
+footer h5 {
+  line-height: 16px;
+  margin: 4px 0;
+  font-size: 100%;
+  text-shadow: 0 1px 0 #eee;
+  font-weight: 900;
+  color: #393318;
+  color: #808080;
+}
+/* distance above and below the license statement */
+footer .license {
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+
+/* Comments
+-------------------------------------------------------------------------- */
+body .comment, body .trackback, body .pingback {
+  list-style: none;
+  list-style-position: outside;
+  margin-left: 20px;
+}
+body .comment h3 {
+  font-family: "Times New Roman", "Times", serif;
+  font-size: 220%;
+  font-weight: 400;
+  line-height: 120%;
+}
+body .comment a:hover .avatar { 
+  border: 1px solid #a8001c; 
+}
+body .avatar, body .comment a .avatar { 
+  display: block;
+  float: right;
+  margin: 0 0 10px 10px;
+  border: 1px solid #ccc;
+  padding: 4px;
+  background:#fcfcfc;
+}
+/* input of name, mail, web site */
+body .comment input {
+  width: 300px;
+  margin-bottom: 3px;
+}
+/* text input of comment */
+body .comment textarea {
+  width: 660px;
+  padding: 9px;
+  margin-bottom: 3px;
+}
+
+/* Scalelines (Background grid of title)
+-------------------------------------------------------------------------- */
+/* show the scale paper as background on the whole site, but excluding the
+ * content .container section */
+/*
+body {
+  background: transparent url(./img/grid-18px.png) top center;
+}
+.container {
+  background-color: #fff;
+}
+.scalelines {
+  min-width: 940px;
+  padding-top: 0px;
+}
+/*
+.scalelines .inner {
+  background: transparent url(./img/grid-18px.png) top center;
+  padding: 24px 0 1px 0;
+}
+*/
+.scalelines .container {
+  height: 120px;
+  background: transparent url(./img/header.png) top center;
+}
+.scalelines h1,
+.scalelines p {
+  color: #5a5a5a;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(0,0,0,.3);
+}
+.scalelines h1 {
+  margin-bottom: 9px;
+  font-size: 48px;
+  line-height: 1;
+  /*text-shadow: 0 1px 2px rgba(0,0,0,.5);*/
+  height: 500px;
+  display: none;
+}
+.scalelines p {
+  /*margin-bottom: 30px;*/
+  margin-bottom: 48px;
+  font-weight: 300;
+}
+.scalelines .lead {
+  font-size: 20px;
+  line-height: 27px;
+  display: none;
+}
+.scalelines p a {
+  color: #5a5a5a;
+  font-weight: bold;
+}
+
+/* Specific headers
+------------------------- */
+/* main docs page */
+.masthead {
+  background-color: #fff;
+  background-repeat: no-repeat;
+}
+/* supporting docs pages */
+.subhead {
+  background-color: #767d80;
+  background-repeat: no-repeat;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#565d60), to(#767d80));
+  background-image: -webkit-linear-gradient(#565d60, #767d80);
+  background-image: -moz-linear-gradient(#565d60, #767d80);
+  background-image: -o-linear-gradient(top, #565d60, #767d80);
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#565d60), to(#767d80));
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#565d60', endColorstr='#767d80', GradientType=0); /* IE8 and down */
+}
+.subhead .inner {
+  padding: 36px 0 27px;
+}
+.subhead h1,
+.subhead p {
+  text-align: left;
+}
+.subhead h1 {
+  font-size: 40px;
+}
+.subhead p a {
+  font-weight: normal;
+}
+
+/* Figure
+-------------------------------------------------------------------------- */
+.figure {
+  width: 360px;
+  padding: 4px;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+  /* default centered */
+  display: block;
+  margin: 10px auto 20px;
+  text-align: center;
+}
+.caption {
+  margin-bottom: 0;
+  font-size: 90%;
+  line-height: 16px;
+}
+
+/* Sidebar
+-------------------------------------------------------------------------- */
+#sidebar {
+  padding-top: 50px;
+}
+#sidebar ul {
+  list-style-type: none;
+  margin-left: 0;
+  margin-right: 20px;
+}
+#sidebar h2 {
+  color: #8fbf60;
+  font-size: 0.8em;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  line-height: 20px;
+  border-bottom-color: rgb(221, 221, 221);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+/* Manpages
+-------------------------------------------------------------------------- */
+/* bold font entries */
+.cmbx-10 { font-weight: bold; }
+.likeparagraphHead { font-weight: bold; }
+.titlemark {
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.partToc { font-weight: bold; }
+
+/* Tables
+-------------------------------------------------------------------------- */
+.table .thead .td {
+  border-bottom: 1px solid #ddd;
+}
+.table .td {
+  border: none;
+}
+/* Center tables and put some space below and above */
+.tabular {
+  width: 550px;
+  margin: 25px auto;
+  text-align: center;
+}
+/* Highlight cell entries */
+tbody > tr:hover td {
+  background-color: #f5f5f5;
+}
+tbody > tr.hline:hover td {
+  background-color: #fff;
+}
+/* Put a line in the tr entries with class .hline */
+tbody > tr.hline > td > hr {
+  margin: 0px;
+  border: none;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+tbody > tr.hline > td {
+  margin: 0px;
+  border: none;
+  border-top: 2px solid #ccc;
+}
+tbody > tr.cline > td > hr {
+  margin: 0px;
+  border: none;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border-top: 1px solid #ccc;
+}
+tbody > tr > td {
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-left: 20px;
+}
+
+/* vim: set textwidth=120 ts=2 sw=2: */
