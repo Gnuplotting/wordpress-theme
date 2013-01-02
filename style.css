@@ -88,6 +88,10 @@ section {
   color: #006a80;
   background-color: transparent;
 }
+.nav .feed {
+  background: url("img/rss.png") no-repeat transparent;
+  margin: 7px;
+}
 
 /* Single blog entry
 -------------------------------------------------------------------------- */

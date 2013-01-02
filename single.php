@@ -27,6 +27,7 @@ get_header(); ?>
       </ul>
     </li>
     <li><a href="http://www.gnuplotting.org/gallery.html">Gallery</a></li>
+    <li class="right"><a class="feed" href="http://www.gnuplotting.org/feed/"></a></li>
   </ul>
 
   <!-- Grid for main content and sidebar -->
