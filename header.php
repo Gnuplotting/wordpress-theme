@@ -32,7 +32,7 @@
   </div><!-- </container> -->
   <div class="container">
     <a href="http://www.gnuplotting.org"><h1>Gnuplotting</h1></a>
-    <p class="lead">Create scientific plots using Gnuplot</p>
+    <p class="lead">Create scientific plots using gnuplot</p>
   </div><!-- container -->
 </header>
 

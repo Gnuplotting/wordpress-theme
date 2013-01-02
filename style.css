@@ -208,10 +208,13 @@ header .image {
   height: 150px;
   background: transparent url(./img/header.png) top center;
 }
-header h1 { margin-bottom: 0px; }
+header h1 { 
+  margin-bottom: 0px;
+  font-size: 30px;
+}
 header .lead {
   font-family: "Times New Roman", "Times", serif;
-  font-size: 20px;
+  font-size: 18px;
   font-style: italic;
   color: #808080;
 }
