@@ -10,15 +10,8 @@ get_header(); ?>
 
   <!-- ======= Navbar ======= -->
   <ul class="nav nav-pills">
-    <li class="right"><a href="http://www.gnuplotting.org/gallery.html">Gallery</a></li>
-    <li class="dropdown right">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Manpages<b class="caret"></b></a>
-      <ul class="dropdown-menu">
-        <li><a href="http://127.0.0.1/wordpress/?page_id=1284">Gnuplot 4.6</a></li>
-        <li><a href="manpage-4.4">Gnuplot 4.4</a></li>
-      </ul>
-    </li>
-    <li class="dropdown right">
+    <li class="active"><a href="#">Home</a></li>
+    <li class="dropdown">
       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Introduction<b class="caret"></b></a>
       <ul class="dropdown-menu">
         <li><a href="http://www.gnuplotting.org/introduction/plotting-functions/">Plotting functions</a></li>
@@ -26,8 +19,14 @@ get_header(); ?>
         <li><a href="http://www.gnuplotting.org/introduction/output-terminals/">Output terminals</a></li>
       </ul>
     </li>
-    <li class="right"><a href="#">Home</a></li>
-    <li class="brand"><a href="#">Gnuplotting</a></li>
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Manpages<b class="caret"></b></a>
+      <ul class="dropdown-menu">
+        <li><a href="http://127.0.0.1/wordpress/?page_id=1284">Gnuplot 4.6</a></li>
+        <li><a href="manpage-4.4">Gnuplot 4.4</a></li>
+      </ul>
+    </li>
+    <li><a href="http://www.gnuplotting.org/gallery.html">Gallery</a></li>
   </ul>
 
   <!-- Grid for main content and sidebar -->
