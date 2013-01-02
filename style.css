@@ -202,90 +202,18 @@ body .comment textarea {
   margin-bottom: 3px;
 }
 
-/* Scalelines (Background grid of title)
+/* Header
 -------------------------------------------------------------------------- */
-/* show the scale paper as background on the whole site, but excluding the
- * content .container section */
-/*
-body {
-  background: transparent url(./img/grid-18px.png) top center;
-}
-.container {
-  background-color: #fff;
-}
-.scalelines {
-  min-width: 940px;
-  padding-top: 0px;
-}
-/*
-.scalelines .inner {
-  background: transparent url(./img/grid-18px.png) top center;
-  padding: 24px 0 1px 0;
-}
-*/
-.scalelines .container {
-  height: 120px;
+header .image {
+  height: 150px;
   background: transparent url(./img/header.png) top center;
 }
-.scalelines h1,
-.scalelines p {
-  color: #5a5a5a;
-  text-align: center;
-  text-shadow: 0 1px 1px rgba(0,0,0,.3);
-}
-.scalelines h1 {
-  margin-bottom: 9px;
-  font-size: 48px;
-  line-height: 1;
-  /*text-shadow: 0 1px 2px rgba(0,0,0,.5);*/
-  height: 500px;
-  display: none;
-}
-.scalelines p {
-  /*margin-bottom: 30px;*/
-  margin-bottom: 48px;
-  font-weight: 300;
-}
-.scalelines .lead {
+header h1 { margin-bottom: 0px; }
+header .lead {
+  font-family: "Times New Roman", "Times", serif;
   font-size: 20px;
-  line-height: 27px;
-  display: none;
-}
-.scalelines p a {
-  color: #5a5a5a;
-  font-weight: bold;
-}
-
-/* Specific headers
-------------------------- */
-/* main docs page */
-.masthead {
-  background-color: #fff;
-  background-repeat: no-repeat;
-}
-/* supporting docs pages */
-.subhead {
-  background-color: #767d80;
-  background-repeat: no-repeat;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#565d60), to(#767d80));
-  background-image: -webkit-linear-gradient(#565d60, #767d80);
-  background-image: -moz-linear-gradient(#565d60, #767d80);
-  background-image: -o-linear-gradient(top, #565d60, #767d80);
-  background-image: -khtml-gradient(linear, left top, left bottom, from(#565d60), to(#767d80));
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#565d60', endColorstr='#767d80', GradientType=0); /* IE8 and down */
-}
-.subhead .inner {
-  padding: 36px 0 27px;
-}
-.subhead h1,
-.subhead p {
-  text-align: left;
-}
-.subhead h1 {
-  font-size: 40px;
-}
-.subhead p a {
-  font-weight: normal;
+  font-style: italic;
+  color: #808080;
 }
 
 /* Figure
