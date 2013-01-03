@@ -31,7 +31,7 @@
   <div class="container image">
   </div><!-- </container> -->
   <div class="container">
-    <a href="http://www.gnuplotting.org"><h1>Gnuplotting</h1></a>
+    <h1><a href="http://www.gnuplotting.org">Gnuplotting</a></h1>
     <p class="lead">Create scientific plots using gnuplot</p>
   </div><!-- container -->
 </header>
