@@ -29,7 +29,7 @@
     </div>
 
     <ol class="commentlist">
-    <?php wp_list_comments(); ?>
+        <?php wp_list_comments(array('avatar_size' => 50)); ?>
     </ol>
 
     <div class="navigation">
