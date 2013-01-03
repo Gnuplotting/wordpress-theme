@@ -178,12 +178,39 @@ body .comment, body .trackback, body .pingback {
   list-style-position: outside;
   margin-left: 20px;
 }
+/* title of comments */
 body .comment h3 {
   font-family: "Times New Roman", "Times", serif;
   font-size: 220%;
   font-weight: 400;
   line-height: 120%;
+  border-bottom: 1px solid #dddddd;
 }
+/* line after a single entry */
+body .comment li { border-bottom: 1px solid #dddddd; }
+/* fixing left margin of comments */
+body .comment ol { margin-left: 0; }
+body .comment li { margin-left: 0; }
+/* fixing top margin of comments */
+body .comment li {
+  margin-top: 10px;
+  min-height: 70px;
+}
+/* author and date */
+body .comment-author {
+  font-weight: 700;
+  display: inline;
+  font-size: 90%;
+}
+body .comment-meta { display: inline; }
+/* replace the "says:" with on */
+body .comment .says span { display: none; }
+body .comment .says {
+  content: 'on';
+  font-weight: 100;
+  color: #808080;
+}
+/* handling of the avatar image */
 body .comment a:hover .avatar { 
   border: 1px solid #a8001c; 
 }

@@ -59,7 +59,7 @@ get_header(); ?>
             </div>
             <!-- Tags -->
             <p class="postmetadata">
-              <?php the_tags('Tags: ', ', ', '<br />'); ?>
+              <?php the_tags('<strong>Tags:</strong> ', ', ', '<br />'); ?>
             </p>
           </section><!-- </post> -->
 
