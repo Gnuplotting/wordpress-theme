@@ -180,7 +180,14 @@ body .comment h3 {
   font-size: 220%;
   font-weight: 400;
   line-height: 120%;
+  border-bottom: 1px solid #dddddd;
 }
+/* Line after a single entry */
+body .comment li { border-bottom: 1px solid #dddddd; }
+/* Fixing left margin of comments */
+body .comment ol { margin-left: 0; }
+body .comment li {margin-left: 0; }
+/* Handling of the avatar image */
 body .comment a:hover .avatar { 
   border: 1px solid #a8001c; 
 }
