@@ -10,7 +10,7 @@ get_header(); ?>
 
   <!-- ======= Navbar ======= -->
   <ul class="nav nav-pills">
-    <li class="active"><a href="#">Home</a></li>
+    <li><a href="#">Home</a></li>
     <li class="dropdown">
       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Introduction<b class="caret"></b></a>
       <ul class="dropdown-menu">
