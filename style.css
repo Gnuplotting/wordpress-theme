@@ -46,13 +46,6 @@ section {
   list-style: none outside none;
   padding: 0px 0px;
 }
-/* Alternative color scheme for the menu link */
-.nav a {
-  /* color: #0069d6; */
-}
-.nav a:hover {
-  color: #a8001c;
-}
 .nav > li > a {
   border-radius: 0;
   margin: 0px;
@@ -70,12 +63,27 @@ section {
   color: #a8001c;
   background-color: #eee;
 }
-.dropdown-menu li > a:hover {
-  /*background-color: #0087A3;*/
+
+/* dropdown menu */
+.nav .dropdown-menu li > a:hover {
   background-color: #eeeeee;
   background-image: none;
   color: #a8001c;
 }
+.nav .dropdown-toggle:hover .caret {
+  border-bottom-color: #a8001c;
+  border-top-color: #a8001c;
+}
+.nav-pills > .active > .dropdown-toggle .caret {
+  border-bottom-color: #8fbf60;
+  border-top-color: #8fbf60;
+}
+.nav > li.dropdown.open > a {
+  background-color: #ccc;
+  border: none;
+}
+
+/* rss feed symbo */
 .nav .feed {
   background: url("img/rss.png") no-repeat transparent;
   margin: 6px;
