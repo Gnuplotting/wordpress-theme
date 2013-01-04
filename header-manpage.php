@@ -28,12 +28,12 @@
 
 <!-- ======= Header ======= -->
 <header class="scalelines masthead" id="overview">
-  <div class="inner">
-    <div class="container">
-      <h1>Gnuplotting</h1>
-      <p class="lead">Create scientific plots using Gnuplot</p>
-    </div><!-- </container> -->
-  </div><!-- </inner> -->
+  <div class="container image">
+  </div><!-- </container> -->
+  <div class="container">
+    <h1><a href="http://www.gnuplotting.org">Gnuplotting</a></h1>
+    <p class="lead">Create scientific plots using gnuplot</p>
+  </div><!-- container -->
 </header>
 
 <?php // vim: set textwidth=120 ts=2 sw=2: ?>

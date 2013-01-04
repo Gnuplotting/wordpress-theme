@@ -18,14 +18,15 @@ get_header('manpage'); ?>
         <li><a href="http://www.gnuplotting.org/introduction/output-terminals/">Output terminals</a></li>
       </ul>
     </li>
-    <li class="dropdown active">
+    <li class="active dropdown">
       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Manpages<b class="caret"></b></a>
       <ul class="dropdown-menu">
-        <li><a href="manpage-4.6">Gnuplot 4.6</a></li>
+        <li><a href="http://127.0.0.1/wordpress/?page_id=1284">Gnuplot 4.6</a></li>
         <li><a href="manpage-4.4">Gnuplot 4.4</a></li>
       </ul>
     </li>
     <li><a href="http://www.gnuplotting.org/gallery.html">Gallery</a></li>
+    <li class="right"><a class="feed" href="http://www.gnuplotting.org/feed/"></a></li>
   </ul>
 
   <!-- Grid for main content and sidebar -->
