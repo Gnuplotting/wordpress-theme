@@ -36,7 +36,7 @@
 .pun, .opn, .clo { color: #93a1a1; }
 .fun { color: #dc322f; }
 .str, .atv { color: #268bd2; }
-.kwd, .tag { color: #195f91; }
+.kwd { color: #195f91; }
 .typ, .atn, .dec, .var { color: #CB4B16; }
 .pln { color: #93a1a1; }
 
