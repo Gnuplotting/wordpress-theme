@@ -5841,9 +5841,8 @@ respectively.
 More sophisticated approaches to this problem exist and should be used to preprocess the data outside <span class="cmbx-10">gnuplot </span>if
 this simple solution is found inadequate.
 <!--l. 9180--></p><p class="noindent">See also
-<a href="http://www.gnuplot.info/demo/dgrid3d.html"><span class="cmtt-10">dgrid3d.dem: dgrid3d demo. </span></a>
-and
-<!--l. 9185--></p><p class="noindent">     <a href="http://www.gnuplot.info/demo/scatter.html"><span class="cmtt-10">scatter.dem: dgrid3d demo. </span></a>
+<a href="http://www.gnuplot.info/demo/dgrid3d.html"><span class="cmtt-10">dgrid3d.dem</span></a> and
+<!--l. 9185--><a href="http://www.gnuplot.info/demo/scatter.html"><span class="cmtt-10">scatter.dem</span></a>.
 <!--l. 9189--></p><p class="noindent">
 </p><h4 class="likesubsectionHead"><a id="x1-217000III"></a>Dummy</h4>
 <a id="Q1-1-430"></a>
