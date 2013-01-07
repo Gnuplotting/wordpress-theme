@@ -6,14 +6,14 @@
 # AUTHOR: Hagen Wierstorf
 reset
 
-# The new design has a width of 940px.
+# The new design has a width of 920px.
 # Use 150px as height for negative and positive y-values, 120px for only
 # positive values.
 # wxt
-set terminal wxt size 940,120 enhanced persist font 'Helvetica,10'
-set terminal wxt size 940,150 enhanced persist font 'Helvetica,10'
+set terminal wxt size 920,120 enhanced persist font 'Helvetica,10'
+set terminal wxt size 920,150 enhanced persist font 'Helvetica,10'
 # png
-set terminal pngcairo size 940,150 enhanced font 'Helvetica,10'
+set terminal pngcairo size 920,150 enhanced font 'Helvetica,10'
 set output 'header.png'
 
 set style line  1 lc rgb '#0060ad' lt 1 # --- blue
