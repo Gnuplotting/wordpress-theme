@@ -26,7 +26,7 @@ get_header('manpage'); ?>
       </ul>
     </li>
     <li><a href="http://www.gnuplotting.org/gallery.html">Gallery</a></li>
-    <li class="right"><a class="feed" href="http://www.gnuplotting.org/feed/"></a></li>
+    <li class="right"><a href="http://www.gnuplotting.org/feed/"><i class="icon-rss icon-large"></i></a></li>
   </ul>
 
   <!-- Grid for main content and sidebar -->
