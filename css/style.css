@@ -33,6 +33,10 @@ li.left { float: left; display: block; }
 section {
   padding-top: 34px
 }
+.container {
+  width: 920px;
+}
+.span9 { width: 680px; }
 
 
 /* Navigation
@@ -112,7 +116,7 @@ section {
   color: #b3001e;
 }
 .post {
-  margin-left: 20px;
+  margin-left: 0;
   margin-bottom: 35px;
 }
 /* Color of "date" and "Tags:" */
@@ -284,7 +288,7 @@ header .lead {
 #sidebar ul {
   list-style-type: none;
   margin-left: 0;
-  margin-right: 20px;
+  margin-right: 0px;
 }
 #sidebar h2 {
   color: #8fbf60;
