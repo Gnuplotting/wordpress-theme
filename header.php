@@ -13,6 +13,7 @@
   <link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory'); ?>/img/favicon.ico"/>
   <!-- Adding google code prettifier -->
   <link href="<?php bloginfo('stylesheet_directory'); ?>/bootstrap.css" type="text/css" rel="stylesheet" />
+  <link href="<?php bloginfo('stylesheet_directory'); ?>/font-awesome.min.css" type="text/css" rel="stylesheet" />
   <link href="<?php bloginfo('stylesheet_directory'); ?>/prettify.css" type="text/css" rel="stylesheet" />
   <link href="<?php bloginfo('stylesheet_directory'); ?>/style.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery-1.7.2.min.js"></script>
