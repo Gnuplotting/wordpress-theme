@@ -85,12 +85,12 @@ section {
 
 /* rss feed symbo */
 .nav .feed {
-  background: url("img/rss.png") no-repeat transparent;
+  background: url("../img/rss.png") no-repeat transparent;
   margin: 6px;
   padding-bottom: 12px;
 }
 .nav > li > a.feed:hover {
-  background: url("img/rss_over.png") no-repeat transparent;
+  background: url("../img/rss_over.png") no-repeat transparent;
 }
 
 /* Single blog entry
@@ -139,7 +139,7 @@ code {
 /* Footer
 -------------------------------------------------------------------------- */
 .footer_art {
-  background: transparent url('img/spectroscopy.png') no-repeat;
+  background: transparent url('../img/spectroscopy.png') no-repeat;
   height: 150px;
 }
 footer {
@@ -152,7 +152,7 @@ footer {
 }
 footer li { line-height: 16px; }
 footer .noise {
-  background: transparent url('img/noise.png') top repeat-x;
+  background: transparent url('../img/noise.png') top repeat-x;
   margin-top: -50px;
   height: 50px;
 }
@@ -238,7 +238,7 @@ body .comment textarea {
 -------------------------------------------------------------------------- */
 header .image {
   height: 150px;
-  background: transparent url(./img/header.png) top center;
+  background: transparent url(../img/header.png) top center;
 }
 header h1 { 
   margin-bottom: 0px;
