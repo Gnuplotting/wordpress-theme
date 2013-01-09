@@ -87,14 +87,10 @@ section {
   border: none;
 }
 
-/* rss feed symbo */
-.nav .feed {
-  background: url("../img/rss.png") no-repeat transparent;
-  margin: 6px;
-  padding-bottom: 12px;
-}
-.nav > li > a.feed:hover {
-  background: url("../img/rss_over.png") no-repeat transparent;
+/* set rss feed symbol mor to the center */
+.nav > li.feed > a {
+  padding-top: 14px;
+  padding-bottom: 9px;
 }
 
 /* Single blog entry
