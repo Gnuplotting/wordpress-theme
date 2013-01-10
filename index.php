@@ -27,8 +27,8 @@ get_header(); ?>
       </ul>
     </li>
     <li><a href="http://www.gnuplotting.org/gallery.html">Gallery</a></li>
-    <li class="feed right"><a href="http://www.gnuplotting.org/feed/"><i class="icon-rss icon-large"></i></a></li>
-  </ul>
+      <li class="feed right"><a href="http://www.gnuplotting.org/feed/"><i class="icon-rss icon-large"></i></a></li>
+    </ul>
 
   <!-- Grid for main content and sidebar -->
   <div class="row">
@@ -52,7 +52,7 @@ get_header(); ?>
               <!-- Time, comments and edit -->
               <p class="date">
               <?php the_time('F jS, Y') ?> <!-- by <?php the_author() ?> --> |
-              <?php comments_popup_link('No Comments', '1 Comment', '% Comments'); ?>
+              <?php comments_popup_link('<i class="icon-comments-alt"></i> No Comments', '<i class="icon-comments"></i> 1 Comment', '<i class="icon-comments"></i> % Comments'); ?>
               <?php edit_post_link('Edit', ' | ', ''); ?>  
               </p><!-- </date> -->
               <?php the_content('Read the rest of this entry &raquo;'); ?>

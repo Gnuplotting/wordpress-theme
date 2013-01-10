@@ -53,7 +53,7 @@
 
 <div id="respond">
 
-<h3><?php comment_form_title( 'Leave a Reply', 'Leave a Reply to %s' ); ?></h3>
+<h3><?php comment_form_title( '<i class="icon-comment-alt"></i> Leave a Reply', '<i class="icon-comment-alt"></i> Leave a Reply to %s' ); ?></h3>
 
 <div class="cancel-comment-reply">
 	<small><?php cancel_comment_reply_link(); ?></small>
