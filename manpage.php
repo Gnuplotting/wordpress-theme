@@ -32,6 +32,11 @@ get_header('manpage'); ?>
   <!-- Grid for main content and sidebar -->
   <div class="row">
 
+    <!-- ======= Sidebar ======= -->
+    <div class="span3 sidebar">
+      <?php get_sidebar(); ?>
+    </div><!-- </span3> -->
+
     <!-- ======= Main page ======= -->
     <div class="span9" id="main">
       <section class="post">
@@ -39,11 +44,6 @@ get_header('manpage'); ?>
         <?php require("manpage-4.6.php");?>
       </section>
     </div><!-- </span9> -->
-
-    <!-- ======= Sidebar ======= -->
-    <div class="span3">
-      <?php get_sidebar(); ?>
-    </div><!-- </span3> -->
 
 
   </div><!-- </row> -->

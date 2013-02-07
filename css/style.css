@@ -281,6 +281,9 @@ header .lead {
 
 /* Sidebar
 -------------------------------------------------------------------------- */
+.sidebar {
+  float: right;
+}
 #sidebar {
   padding-top: 50px;
 }

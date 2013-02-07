@@ -33,6 +33,11 @@ get_header(); ?>
   <!-- Grid for main content and sidebar -->
   <div class="row">
 
+    <!-- ======= Sidebar ======= -->
+    <div class="span3 sidebar">
+      <?php get_sidebar(); ?>
+    </div><!-- </span3> -->
+
     <!-- ======= Main page ======= -->
     <div class="span9" id="main">
 	    <!-- Get content -->
@@ -82,10 +87,6 @@ get_header(); ?>
 
     </div><!-- </span9> -->
 
-    <!-- ======= Sidebar ======= -->
-    <div class="span3">
-      <?php get_sidebar(); ?>
-    </div><!-- </span3> -->
 
 
   </div><!-- </row> -->
