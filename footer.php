@@ -34,7 +34,7 @@
         <ul class="unstyled">
           <li><h5>Developement</h5></li>
           <li><a href="http://github.com/Gnuplotting">Github</a></li>
-          <li><a href="mail@gnuplotting.org">Ask a question</a></li>
+          <li><a href="mailto://mail@gnuplotting.org">Ask a question</a></li>
         </ul>
       </div><!-- </span2> -->
 
@@ -49,8 +49,7 @@
       <div class="span14 offset1">
         Free to share and remix: <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons CC-BY</a>.
         Powered by <a href="http://wordpress.org/">WordPress</a>,
-        <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>,
-        <a href="http://glyphicons.com/">Glyphicons</a>.
+        <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>.
         <br /><a href="<?php bloginfo('rss2_url'); ?>">Entries (RSS)</a>
         and <a href="<?php bloginfo('comments_rss2_url'); ?>">Comments (RSS)</a>.
         <!-- <?php echo get_num_queries(); ?> queries. <?php timer_stop(1); ?> seconds. -->
