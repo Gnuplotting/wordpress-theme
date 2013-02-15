@@ -14,7 +14,7 @@ get_header(); ?>
     <li class="dropdown">
       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Introduction<b class="caret"></b></a>
       <ul class="dropdown-menu">
-        <li><a href="http://www.gnuplotting.org/introduction/plotting-functions/">Plotting functions</a></li>
+        <li><a href="http://127.0.0.1/wordpress/?page_id=51">Plotting functions</a></li>
         <li><a href="http://www.gnuplotting.org/introduction/plotting-data/">Plotting data</a></li>
         <li><a href="http://www.gnuplotting.org/introduction/output-terminals/">Output terminals</a></li>
       </ul>
