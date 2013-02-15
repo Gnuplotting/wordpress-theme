@@ -179,7 +179,7 @@ footer .license {
 body .comment, body .trackback, body .pingback {
   list-style: none;
   list-style-position: outside;
-  margin-left: 20px;
+  margin-left: 0px;
 }
 /* title of comments */
 body .comment h3 {
