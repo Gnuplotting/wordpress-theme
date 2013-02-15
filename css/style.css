@@ -14,7 +14,7 @@ body {
 /* Font for entry titles */
 h1, body .entry .title { 
 font-family: "Times New Roman", "Times", serif;
-font-size: 220%;
+font-size: 200%;
 font-weight: 400;
 line-height: 120%;
 }
@@ -98,18 +98,12 @@ section {
 /* Title of single entry */
 .page-header {
   margin-bottom: 0px;
-  padding-bottom: 6px;
+  padding-bottom: 2px;
   border-bottom: 1px solid #dddddd;
 }
 .page-header h1 {
   /* text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5059); */
   margin-bottom: 0px;
-}
-.page-header a {
-  color: #0087a3;
-}
-.page-header a:hover {
-  color: #b3001e;
 }
 .post {
   margin-left: 0;
