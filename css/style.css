@@ -178,7 +178,7 @@ body .comment, body .trackback, body .pingback {
 /* title of comments */
 body .comment h3 {
   font-family: "Times New Roman", "Times", serif;
-  font-size: 220%;
+  font-size: 200%;
   font-weight: 400;
   line-height: 120%;
   border-bottom: 1px solid #dddddd;
