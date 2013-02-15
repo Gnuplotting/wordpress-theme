@@ -190,6 +190,7 @@ body .comment h3 {
   font-weight: 400;
   line-height: 120%;
   border-bottom: 1px solid #dddddd;
+  padding-top: 30px;
 }
 /* line after a single entry */
 body .comment li { border-bottom: 1px solid #dddddd; }
@@ -207,7 +208,10 @@ body .comment-author {
   display: inline;
   font-size: 90%;
 }
-body .comment-meta { display: inline; }
+body .comment-meta { 
+  display: inline;
+  font-size: 90%;
+}
 /* replace the "says:" with on */
 body .comment .says span { display: none; }
 body .comment .says {
