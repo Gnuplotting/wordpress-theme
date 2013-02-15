@@ -26,8 +26,8 @@ get_header(); ?>
         <li><a href="manpage-4.4">Gnuplot 4.4</a></li>
       </ul>
     </li>
-    <li><a href="http://www.gnuplotting.org/gallery.html">Gallery</a></li>
-      <li class="feed right"><a href="http://www.gnuplotting.org/feed/"><i class="icon-rss icon-large"></i></a></li>
+    <!--<li><a href="http://www.gnuplotting.org/gallery.html">Gallery</a></li>-->
+    <li class="feed right"><a href="http://www.gnuplotting.org/feed/"><i class="icon-rss icon-large"></i></a></li>
   </ul>
 
   <!-- Grid for main content and sidebar -->

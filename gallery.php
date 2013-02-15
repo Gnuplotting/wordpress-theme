@@ -22,11 +22,10 @@ get_header(); ?>
       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Manpages<b class="caret"></b></a>
       <ul class="dropdown-menu">
         <li><a href="http://127.0.0.1/wordpress/?page_id=1284">Gnuplot 4.6</a></li>
-        <li><a href="manpage-4.4">Gnuplot 4.4</a></li>
       </ul>
     </li>
-    <li class="active"><a href="http://www.gnuplotting.org/gallery.html">Gallery</a></li>
-    <li class="right"><a href="http://www.gnuplotting.org/feed/"><i class="icon-rss icon-large"></i></a></li>
+    <!--<li class="active"><a href="http://www.gnuplotting.org/gallery.html">Gallery</a></li>-->
+    <li class="feed right"><a href="http://www.gnuplotting.org/feed/"><i class="icon-rss icon-large"></i></a></li>
   </ul>
 
   <!-- Grid for main content and sidebar -->
