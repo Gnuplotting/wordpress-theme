@@ -9,20 +9,19 @@ get_header(); ?>
 
   <!-- ======= Navbar ======= -->
   <ul class="nav nav-pills">
-    <li><a href="#">Home</a></li>
+    <li><a href="http://127.0.0.1/wordpress/">Home</a></li>
     <li class="active dropdown">
       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Introduction<b class="caret"></b></a>
       <ul class="dropdown-menu">
-        <li><a href="http://www.gnuplotting.org/introduction/plotting-functions/">Plotting functions</a></li>
-        <li><a href="http://www.gnuplotting.org/introduction/plotting-data/">Plotting data</a></li>
-        <li><a href="http://www.gnuplotting.org/introduction/output-terminals/">Output terminals</a></li>
+        <li><a href="http://127.0.0.1/wordpress/?page_id=51">Plotting functions</a></li>
+        <li><a href="http://127.0.0.1/wordpress/?page_id=101">Plotting data</a></li>
+        <li><a href="http://127.0.0.1/wordpress/?page_id=114">Output terminals</a></li>
       </ul>
     </li>
     <li class="dropdown">
       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Manpages<b class="caret"></b></a>
       <ul class="dropdown-menu">
         <li><a href="http://127.0.0.1/wordpress/?page_id=1284">Gnuplot 4.6</a></li>
-        <li><a href="manpage-4.4">Gnuplot 4.4</a></li>
       </ul>
     </li>
     <!--<li><a href="http://www.gnuplotting.org/gallery.html">Gallery</a></li>-->
