@@ -44,6 +44,7 @@ get_header('manpage'); ?>
         <!-- Get content -->
         <?php require("manpage-4.6.php");?>
       </section>
+      <?php comments_template(); ?>
     </div><!-- </span9> -->
 
 
