@@ -25,6 +25,8 @@ get_header(); ?>
       </ul>
     </li>
     <!--<li><a href="http://www.gnuplotting.org/gallery.html">Gallery</a></li>-->
+    <li><a href="http://127.0.0.1/wordpress/?page_id=97">About</a></li>
+    <?php if (is_user_logged_in()) { ?><li><a href="http://www.gnuplotting.org/wp-admin">Dashboard <i class="icon-arrow-right"></i></a></li><?php } ?>
     <li class="feed right"><a href="http://www.gnuplotting.org/feed/"><i class="icon-rss icon-large"></i></a></li>
   </ul>
 
