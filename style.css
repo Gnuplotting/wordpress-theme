@@ -209,8 +209,9 @@ body .comment-author {
   font-size: 90%;
 }
 body .comment-meta { 
-  display: inline;
+  display: inline-block;
   font-size: 90%;
+  margin-bottom: 5px;
 }
 /* replace the "says:" with on */
 body .comment .says span { display: none; }
