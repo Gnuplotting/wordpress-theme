@@ -26,6 +26,7 @@ font-size: 200%;
 font-weight: 400;
 line-height: 120%;
 }
+h2 { font-size: 24.5px; }
 /* Links color */
 a {
   color: #006a80;
@@ -45,6 +46,11 @@ section {
   width: 920px;
 }
 .span9 { width: 680px; }
+blockquote p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 100;
+}
 
 
 /* Navigation
