@@ -1,7 +1,7 @@
 <?php
 /**
  * Gnuplotting.org
- * Comments
+ * comments.php, handling of comments
  */
 
 // Do not delete these lines

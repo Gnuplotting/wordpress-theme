@@ -1,7 +1,7 @@
 <?php
 /**
- * @package WordPress
- * @subpackage Default_Theme
+ * Gnuplotting.org
+ * sidebar.php
  */
 ?>
 	<div id="sidebar" role="complementary">

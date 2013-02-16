@@ -1,7 +1,7 @@
 <?php
 /**
  * Gnuplotting.org
- * footer.php generates the nice footer
+ * footer.php, generates the nice footer
  */
 ?>
 

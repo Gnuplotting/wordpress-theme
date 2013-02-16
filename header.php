@@ -1,7 +1,7 @@
 <?php
 /**
  * Gnuplotting.org
- * header.php adds the topbar navigation bar and the title image of the side
+ * header.php, adds the metadata and the header with title image
  **/
 ?>
 <!DOCTYPE html>

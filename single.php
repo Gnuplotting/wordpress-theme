@@ -1,7 +1,7 @@
 <?php
 /**
  * Gnuplotting.org
- * page.php displays a single entry and the comments
+ * page.php, displays a single entry and the comments
  **/
 get_header(); ?>
 

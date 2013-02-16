@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Manpage
+Template Name: Gallery
 */
 get_header(); ?>
 

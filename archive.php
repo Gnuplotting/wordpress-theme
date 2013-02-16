@@ -1,7 +1,7 @@
 <?php
 /**
  * Gnuplotting.org
- * index.php gets the whole side (header, main, sidebar, footer)
+ * archive.php, displays the blog entries for the desired tag, search, ...
  **/
 get_header(); ?>
 

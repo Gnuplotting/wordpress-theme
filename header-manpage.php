@@ -1,7 +1,7 @@
 <?php
 /**
  * Gnuplotting.org
- * header.php adds the topbar navigation bar and the title image of the side
+ * header-manpage.php, header for manpage side, excludes the execution of prettyprint.js
  **/
 ?>
 <!DOCTYPE html>

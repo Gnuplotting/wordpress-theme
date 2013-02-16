@@ -41,6 +41,7 @@ get_header(); ?>
 
     <!-- ======= Main page ======= -->
     <div class="span9" id="main">
+      
 	    <!-- Get content -->
       <?php if (have_posts()) : ?>
         <?php while (have_posts()) : the_post(); ?>
