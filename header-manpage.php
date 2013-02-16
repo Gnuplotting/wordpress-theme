@@ -12,7 +12,7 @@
   <title><?php wp_title('&laquo;', true, 'right'); ?> <?php bloginfo('name'); ?></title>
   <link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory'); ?>/img/favicon.ico"/>
   <!-- Adding google code prettifier -->
-  <link href="<?php bloginfo('stylesheet_directory'); ?>/css/bootstrap.css" type="text/css" rel="stylesheet" />
+  <link href="<?php bloginfo('stylesheet_directory'); ?>/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
   <link href="<?php bloginfo('stylesheet_directory'); ?>/css/font-awesome.min.css" type="text/css" rel="stylesheet" />
   <link href="<?php bloginfo('stylesheet_directory'); ?>/css/prettify.css" type="text/css" rel="stylesheet" />
   <link href="<?php bloginfo('stylesheet_directory'); ?>/style.css" type="text/css" rel="stylesheet" />
