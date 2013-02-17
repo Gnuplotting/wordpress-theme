@@ -46,6 +46,7 @@ section {
   width: 920px;
 }
 .span9 { width: 680px; }
+/* fix font size of quotations */
 blockquote p {
   font-size: 14px;
   line-height: 20px;
@@ -135,7 +136,8 @@ code {
   line-height: 20px;
   color: #393318;
 }
-
+/* bold font antries in the blog text references */
+.manpage { background-color: #EEFFCC; }
 
 /* Footer
 -------------------------------------------------------------------------- */
@@ -309,8 +311,6 @@ header .lead {
 -------------------------------------------------------------------------- */
 /* bold font entries */
 .cmbx-10 { font-weight: bold; }
-/* bold font antries in the blog text references */
-.manpage { font-weight: bold; }
 .likeparagraphHead { font-weight: bold; }
 .titlemark {
   font-size: 20px;
