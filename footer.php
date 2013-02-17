@@ -31,7 +31,7 @@
 
       <div class="span2">
         <ul class="unstyled">
-          <li><h5>Developement</h5></li>
+          <li><h5>Development</h5></li>
           <li><a href="http://github.com/Gnuplotting" target="_blank">Github</a></li>
           <li><a href="mailto://mail@gnuplotting.org">Ask a question</a></li>
         </ul>
