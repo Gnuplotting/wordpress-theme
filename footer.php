@@ -6,7 +6,6 @@
 ?>
 
 <footer>
-<!-- If you'd like to support WordPress, having the "powered by" link somewhere on your blog is the best way; it's our only promotion or advertising. -->
   <div class="noise">
   </div><!-- </noise> -->
   <div class="container">
@@ -15,25 +14,25 @@
       <div class="span2 offset1">
         <ul class="unstyled">
           <li><h5>Gnuplot</h5></li>
-          <li><a href="http://gnuplot.info/download.html">Download</a></li>
-          <li><a href="http://gnuplot.sourceforge.net/demo/">Demos</a></li>
-          <li><a href="http://gnuplot.info/">News</a></li>
+          <li><a href="http://gnuplot.info/download.html" target="_blank">Download</a></li>
+          <li><a href="http://gnuplot.sourceforge.net/demo/" target="_blank">Demos</a></li>
+          <li><a href="http://gnuplot.info/" target="_blank">News</a></li>
         </ul>
       </div><!-- </span3> -->
 
      <div class="span2">
         <ul class="unstyled">
           <li><h5>Documentation</h5></li>
-          <li><a href="http://www.gnuplotting.org/manpage">Manpage</a></li>
-          <li><a href="http://web.archive.org/web/20110721043630/http://t16web.lanl.gov/Kawano/gnuplot/index-e.html">Not so FAQs</a></li>
-          <li><a href="http://gnuplot-tricks.blogspot.com/">Tricks</a></li>
+          <li><a href="<?php echo site_url(); ?>/manpage-gnuplot-4.6">Manpage</a></li>
+          <li><a href="http://web.archive.org/web/20110721043630/http://t16web.lanl.gov/Kawano/gnuplot/index-e.html" target="_blank">Not so FAQs</a></li>
+          <li><a href="http://gnuplot-tricks.blogspot.com/" target="_blank">Tricks</a></li>
         </ul>
       </div><!-- </span2> -->
 
       <div class="span2">
         <ul class="unstyled">
           <li><h5>Developement</h5></li>
-          <li><a href="http://github.com/Gnuplotting">Github</a></li>
+          <li><a href="http://github.com/Gnuplotting" target="_blank">Github</a></li>
           <li><a href="mailto://mail@gnuplotting.org">Ask a question</a></li>
         </ul>
       </div><!-- </span2> -->
@@ -47,9 +46,9 @@
 
     <div class="row license">
       <div class="span14 offset1">
-        Free to share and remix: <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons CC-BY</a>.
-        Powered by <a href="http://wordpress.org/">WordPress</a>,
-        <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>.
+        Free to share and remix: <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons CC-BY</a>.
+        Powered by <a href="http://wordpress.org/" target="_blank">WordPress</a>,
+        <a href="http://twitter.github.com/bootstrap/" target="_blank">Bootstrap</a>.
         <br /><a href="<?php bloginfo('rss2_url'); ?>">Entries (RSS)</a>
         and <a href="<?php bloginfo('comments_rss2_url'); ?>">Comments (RSS)</a>.
         <!-- <?php echo get_num_queries(); ?> queries. <?php timer_stop(1); ?> seconds. -->
