@@ -46,7 +46,7 @@
 
     <div class="row license">
       <div class="span14 offset1">
-        Free to share and remix: <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons CC-BY</a>.
+        Free to share and remix: <a href="http://creativecommons.org/licenses/by-nc/3.0/" target="_blank">Creative Commons CC-BY-NC</a>.
         Powered by <a href="http://wordpress.org/" target="_blank">WordPress</a>,
         <a href="http://twitter.github.com/bootstrap/" target="_blank">Bootstrap</a>.
         <br /><a href="<?php bloginfo('rss2_url'); ?>">Entries (RSS)</a>
