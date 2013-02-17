@@ -13,19 +13,19 @@ get_header(); ?>
     <li class="dropdown active">
       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Gnuplot basics<b class="caret"></b></a>
       <ul class="dropdown-menu">
-        <li><a href="<?php echo site_url(); ?>/?page_id=51">Plotting functions</a></li>
-        <li><a href="<?php echo site_url(); ?>/?page_id=101">Plotting data</a></li>
-        <li><a href="<?php echo site_url(); ?>/?page_id=114">Output terminals</a></li>
+        <li><a href="<?php echo site_url(); ?>/plotting-functions/">Plotting functions</a></li>
+        <li><a href="<?php echo site_url(); ?>/plotting-data/">Plotting data</a></li>
+        <li><a href="<?php echo site_url(); ?>/output-terminals/">Output terminals</a></li>
       </ul>
     </li>
     <li class="dropdown">
       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Manpages<b class="caret"></b></a>
       <ul class="dropdown-menu">
-        <li><a href="<?php echo site_url(); ?>/?page_id=1284">Gnuplot 4.6</a></li>
+        <li><a href="<?php echo site_url(); ?>/manpage-gnuplot-4-6/">Gnuplot 4.6</a></li>
       </ul>
     </li>
     <!--<li><a href="<?php echo site_url(); ?>/gallery.html">Gallery</a></li>-->
-    <li><a href="<?php echo site_url(); ?>/?page_id=97">About</a></li>
+    <li><a href="<?php echo site_url(); ?>/about/">About</a></li>
     <?php if (is_user_logged_in()) { ?><li><a href="<?php echo site_url(); ?>/wp-admin">Dashboard <i class="icon-arrow-right"></i></a></li><?php } ?>
     <li class="feed right"><a href="<?php echo site_url(); ?>/feed/"><i class="icon-rss icon-large"></i></a></li>
   </ul>
