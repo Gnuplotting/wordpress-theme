@@ -42,7 +42,7 @@ get_header('manpage'); ?>
     <div class="span9" id="main">
       <section class="post">
         <!-- Get content -->
-        <?php require("manpage-4.6.php");?>
+        <?php require("manpage-4.6.html");?>
       </section>
       <?php comments_template(); ?>
     </div><!-- </span9> -->
