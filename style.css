@@ -138,6 +138,8 @@ code {
 }
 /* bold font antries in the blog text references */
 .manpage { background-color: #EEFFCC; }
+/* handle the overflow of the pre boxes in the comments */
+pre { overflow: hidden; }
 
 /* Footer
 -------------------------------------------------------------------------- */
