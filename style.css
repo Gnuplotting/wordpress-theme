@@ -141,22 +141,6 @@ body .manpage {
   background-color: #EEFFCC;
   color: #393318;
 }
-body .manpage:after {
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  display: inline-block;
-  text-decoration: inherit;
-  content: '\f02d';
-  padding-left: 5px;
-  background-color: #fff;
-  text-decoration: none;
-  color: #006a80;
-}
-body .manpage:hover:after {
-  color: #a8001c;
-  text-decoration: none;
-}
 /* handle the overflow of the pre boxes in the comments */
 pre { overflow: hidden; }
 
