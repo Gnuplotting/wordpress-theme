@@ -13,6 +13,16 @@ if ( function_exists('register_sidebar') ) {
     ));
 }
 
+/* Tags in the sidebar */
+function custom_tag_cloud_widget($args) {
+    $args['number'] = 0; //adding a 0 will display all tags
+    $args['largest'] = 14; //largest tag
+    $args['smallest'] = 8; //smallest tag
+    $args['unit'] = 'pt'; //tag font unit
+    return $args;
+}
+add_filter( 'widget_tag_cloud_args', 'custom_tag_cloud_widget' );
+
 /* Pagination */
 function pagination($pages = '', $range = 4)
 {
