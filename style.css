@@ -104,6 +104,21 @@ blockquote p {
   padding-top: 14px;
   padding-bottom: 9px;
 }
+/* search bar */
+#searchform {
+  margin: 0px;
+}
+#searchform input {
+  height: 29px;
+  border-radius: 0px;
+  border-bottom: 0px;
+  border-top: 0px;
+}
+#searchform .input-append {
+  height: 29px;
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
 
 /* Single blog entry
 -------------------------------------------------------------------------- */
