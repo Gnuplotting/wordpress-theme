@@ -11,6 +11,7 @@
   <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
   <title><?php wp_title('&laquo;', true, 'right'); ?> <?php bloginfo('name'); ?></title>
   <link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory'); ?>/img/favicon.ico"/>
+  <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.gnuplotting.org/feed/"/>
   <!-- Adding google code prettifier -->
   <link href="<?php bloginfo('stylesheet_directory'); ?>/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
   <link href="<?php bloginfo('stylesheet_directory'); ?>/css/font-awesome.min.css" type="text/css" rel="stylesheet" />
