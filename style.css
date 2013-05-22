@@ -111,8 +111,19 @@ blockquote p {
 #searchform input {
   height: 29px;
   border-radius: 0px;
-  border-bottom: 0px;
-  border-top: 0px;
+  border: 0px;
+  box-shadow: 0 0;
+  margin-bottom: 0px;
+  padding-right: 8px;
+}
+#searchform input[type="text"]:focus {
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.071), 0px 0px 8px rgba(82, 168, 236, 0.600);
+  color: #393318;
+  background-color: #fff;
+}
+#searchform input:hover {
+  color: #a8001c;
+  background-color: #eee;
 }
 #searchform .input-append {
   height: 29px;
