@@ -44,7 +44,10 @@ get_header(); ?>
       
       <div id="content" class="narrowcolumn">
       
-        </br></br></br>
+        <br/>
+        <br/>
+        <br/>
+
         <h2 class="center">Error 404 - Not Found</h2>
 
         <p class="center">Oops, it seems that the desired address is not available. <img src="<?php bloginfo('stylesheet_directory'); ?>/img/404.png"/> </p>
