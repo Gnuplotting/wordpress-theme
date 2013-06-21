@@ -70,7 +70,6 @@ blockquote p {
   padding-bottom: 11px;
   padding-top: 12px;
 }
-
 .nav-pills > .active > a {
   color: #8fbf60;
   background-color: transparent;
@@ -98,12 +97,6 @@ blockquote p {
   background-color: #ccc;
   border: none;
 }
-
-/* set rss feed symbol mor to the center */
-.nav > li.feed > a {
-  padding-top: 14px;
-  padding-bottom: 9px;
-}
 /* search bar */
 #searchform {
   margin: 0px;
@@ -114,7 +107,8 @@ blockquote p {
   border: 0px;
   box-shadow: 0 0;
   margin-bottom: 0px;
-  padding-right: 8px;
+  padding-right: 38px;
+  width: 176px;
 }
 #searchform input[type="text"]:focus {
   box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.071), 0px 0px 8px rgba(82, 168, 236, 0.600);
@@ -125,10 +119,19 @@ blockquote p {
   color: #a8001c;
   background-color: #eee;
 }
-#searchform .input-append {
-  height: 29px;
-  border-radius: 0px;
-  margin-bottom: 0px;
+/* clickable search button within the input field */
+.search button {
+  margin-left: -38px;
+  border: 0;
+  padding-top: 10px;
+  padding-bottom: 7px;
+  padding-left: 4px;
+  padding-right: 10px;
+  background: transparent;
+  color: #006a80;
+}
+.search button:hover {
+  color: #a8001c;
 }
 
 /* Single blog entry
