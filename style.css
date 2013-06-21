@@ -107,7 +107,7 @@ blockquote p {
   border: 0px;
   box-shadow: 0 0;
   margin-bottom: 0px;
-  padding-right: 38px;
+  padding-right: 34px;
   width: 176px;
 }
 #searchform input[type="text"]:focus {
@@ -123,12 +123,13 @@ blockquote p {
 .search button {
   margin-left: -38px;
   border: 0;
-  padding-top: 10px;
-  padding-bottom: 7px;
+  padding-top: 8px;
+  padding-bottom: 9px;
   padding-left: 4px;
   padding-right: 10px;
   background: transparent;
   color: #006a80;
+  width: 32px;
 }
 .search button:hover {
   color: #a8001c;
