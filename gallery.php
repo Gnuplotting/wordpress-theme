@@ -27,7 +27,7 @@ get_header(); ?>
     <!--<li class="active"><a href="<?php echo site_url(); ?>/gallery.html">Gallery</a></li>-->
     <li><a href="<?php echo site_url(); ?>/about/">About</a></li>
     <?php if (is_user_logged_in()) { ?><li><a href="<?php echo site_url(); ?>/wp-admin">Dashboard <i class="icon-arrow-right"></i></a></li><?php } ?>
-    <li class="feed right"><a href="<?php echo site_url(); ?>/feed/"><i class="icon-rss icon-large"></i></a></li>
+    <li class="search right"><?php include ("searchform.php"); ?></li>
   </ul>
 
   <!-- Grid for main content and sidebar -->
