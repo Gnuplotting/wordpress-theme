@@ -107,8 +107,10 @@ blockquote p {
   border: 0px;
   box-shadow: 0 0;
   margin-bottom: 0px;
-  padding-right: 34px;
-  width: 176px;
+  margin-right: -4px;
+  padding-right: 36px;
+  width: 178px;
+  background: transparent;
 }
 #searchform input[type="text"]:focus {
   box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.071), 0px 0px 8px rgba(82, 168, 236, 0.600);
@@ -123,15 +125,13 @@ blockquote p {
 .search button {
   margin-left: -38px;
   border: 0;
-  padding-top: 8px;
-  padding-bottom: 9px;
-  padding-left: 4px;
-  padding-right: 10px;
-  background: transparent;
+  background: transparent url('img/search-blue.png') no-repeat center;
   color: #006a80;
-  width: 32px;
+  width: 37px;
+  height: 37px;
 }
 .search button:hover {
+  background: transparent url('img/search-red.png') no-repeat center;
   color: #a8001c;
 }
 
