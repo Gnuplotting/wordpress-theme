@@ -37,7 +37,17 @@
         </ul>
       </div><!-- </span2> -->
 
+      <div class="span2">
+        <ul class="unstyled">
+          <li><h5>Follow</h5></li>
+          <li><a href="http://twitter.com/gnuplotting">Twitter</a></li>
+          <li><a href="<?php bloginfo('rss2_url'); ?>">RSS</a></li>
+          <li><a href="<?php bloginfo('comments_rss2_url'); ?>">RSS (comments)</a></li>
+        </ul>
+      </div><!-- </span2> -->
+
     </div><!-- </row> -->
+
     <div class="row">
       <div class="span2 offset9">
         <a class="pull-right" href="#overview">Back to top</a>
@@ -49,8 +59,6 @@
         Free to share and remix: <a href="http://creativecommons.org/licenses/by-nc/3.0/" target="_blank">Creative Commons CC-BY-NC</a>.
         Powered by <a href="http://wordpress.org/" target="_blank">WordPress</a>,
         <a href="http://twitter.github.com/bootstrap/" target="_blank">Bootstrap</a>.
-        <br /><a href="<?php bloginfo('rss2_url'); ?>">Entries (RSS)</a>
-        and <a href="<?php bloginfo('comments_rss2_url'); ?>">Comments (RSS)</a>.
         <!-- <?php echo get_num_queries(); ?> queries. <?php timer_stop(1); ?> seconds. -->
       </div><!-- </span15> -->
     </div><!-- </row> -->
