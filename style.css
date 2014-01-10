@@ -108,9 +108,10 @@ blockquote p {
   border: 0px;
   box-shadow: 0 0;
   margin-bottom: 0px;
+  margin-left: 46px;
   margin-right: -4px;
   padding-right: 36px;
-  width: 178px;
+  width: 132px;
   background: transparent;
 }
 #searchform input[type="text"]:focus {
