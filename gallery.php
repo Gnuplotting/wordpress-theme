@@ -24,7 +24,7 @@ get_header(); ?>
         <li><a href="<?php echo site_url(); ?>/manpage-gnuplot-4-6/">Gnuplot 4.6</a></li>
       </ul>
     </li>
-    <!--<li class="active"><a href="<?php echo site_url(); ?>/gallery.html">Gallery</a></li>-->
+    <li class="active"><a href="<?php echo site_url(); ?>/gallery.html">Gallery</a></li>
     <li><a href="<?php echo site_url(); ?>/about/">About</a></li>
     <?php if (is_user_logged_in()) { ?><li><a href="<?php echo site_url(); ?>/wp-admin">Dashboard <i class="icon-arrow-right"></i></a></li><?php } ?>
     <li class="right"><a href="http://twitter.com/gnuplotting"><i class="icon-twitter icon-large"></i></a></li>
@@ -35,23 +35,41 @@ get_header(); ?>
   <div class="row">
 
     <!-- ======= Main page ======= -->
-    <div class="span9" id="main">
-      <section class="page type-page hentry">
-        <div class="page-header">
-          <h1><a href="http://127.0.0.1/wordpress/?page_id=971" rel="bookmark" title="Permanent Link to Gallery">Gallery</a></h1>
-        </div>
-        <div class="entry">
-          <!-- Get content -->
-          <?php require("gallery-figs.php");?>
-        </div>
-      </section>
-    </div><!-- </span9> -->
+    <div class="span12 gallery" id="main">
+	    <!-- Get content -->
+      <?php if (have_posts()) : ?>
+        <?php while (have_posts()) : the_post(); ?>
+        
+          <!-- Single entry -->
+          <section <?php post_class() ?> id="post-<?php the_ID(); ?>">
+            <!-- Title of post -->
+            <div class="page-header">
+              <h1><a href="<?php the_permalink() ?>"
+                     rel="bookmark"
+                     title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
+            </div><!-- </page-header> -->
+            <!-- Entry -->
+            <div class="entry">
+              <?php the_content('Read the rest of this entry &raquo;'); ?>
+            </div>
+            <!-- Tags -->
+            <p class="postmetadata">
+              <?php the_tags('<strong>Tags:</strong> ', ', ', '<br />'); ?>
+            </p>
+          </section><!-- </post> -->
 
-    <!-- ======= Sidebar ======= -->
-    <div class="span3">
-      <?php get_sidebar(); ?>
-    </div><!-- </span3> -->
+          <?php wp_link_pages(array('before' => '<p><strong>Pages:</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 
+        <?php endwhile; ?>
+
+      <?php else : ?>
+        <h2 class="center">Not Found</h2>
+		    <p class="center">Sorry, but you are looking for something that isn't here.</p>
+		    <?php get_search_form(); ?>
+
+	    <?php endif; ?>
+
+    </div><!-- </span12> -->
 
   </div><!-- </row> -->
 

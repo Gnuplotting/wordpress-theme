@@ -355,6 +355,33 @@ header .lead {
 }
 .partToc { font-weight: bold; }
 
+/* Gallery
+-------------------------------------------------------------------------- */
+/* add some space to the right, due to the negative offset at the leff */
+.gallery { width: 920px; }
+.gallery>li {
+  float: left;
+  list-style: none outside none;
+}
+.gallery .figure {
+  height: 340px;
+  margin: 20px;
+  position: relative;
+  text-align: center;
+}
+.gallery .figure:before {
+  content: '';
+  display: inline-block;
+  height: 82%;
+  vertical-align: middle;
+}
+ul.gallery { margin: 30px 50px; }
+.gallery .caption {
+  position: absolute;
+  width: 350px;
+  bottom: 6px;
+}
+
 /* Tables
 -------------------------------------------------------------------------- */
 .table .thead .td { border-bottom: 1px solid #ddd; }
