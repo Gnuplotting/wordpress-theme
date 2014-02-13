@@ -381,6 +381,7 @@ ul.gallery { margin: 30px 50px; }
   width: 350px;
   bottom: 6px;
 }
+.gallery img { margin-right: 3px; }
 
 /* Tables
 -------------------------------------------------------------------------- */
