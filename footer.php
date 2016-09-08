@@ -23,7 +23,7 @@
      <div class="span2">
         <ul class="unstyled">
           <li><h5>Documentation</h5></li>
-          <li><a href="<?php echo site_url(); ?>/manpage-gnuplot-4-6/">Manpage</a></li>
+          <li><a href="http://gnuplot.info/docs_5.0/gnuplot.pdf">Manpage</a></li>
           <li><a href="http://www.ualberta.ca/~xz10/gnuplot/index-e.html" target="_blank">Not so FAQs</a></li>
           <li><a href="http://gnuplot-tricks.blogspot.com/" target="_blank">Tricks</a></li>
         </ul>
