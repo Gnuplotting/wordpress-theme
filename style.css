@@ -364,24 +364,18 @@ header .lead {
   list-style: none outside none;
 }
 .gallery .figure {
-  height: 340px;
-  margin: 20px;
+  height: 135px;
+  width: 180px;
+  margin: 10px;
   position: relative;
   text-align: center;
 }
-.gallery .figure:before {
-  content: '';
-  display: inline-block;
-  height: 82%;
-  vertical-align: middle;
-}
 ul.gallery { margin: 30px 50px; }
-.gallery .caption {
-  position: absolute;
-  width: 350px;
-  bottom: 6px;
+.gallery img {
+  margin-right: 3px;
+  height: 135px;
+  width: 180px;
 }
-.gallery img { margin-right: 3px; }
 
 /* Tables
 -------------------------------------------------------------------------- */
