@@ -32,7 +32,7 @@
      <div class="span2">
         <ul class="unstyled">
           <li><h5>Documentation</h5></li>
-          <li><a href="http://gnuplot.info/docs_5.0/gnuplot.pdf">Manpage</a></li>
+          <li><a href="http://gnuplot.info/docs_5.2/Gnuplot_5.2.pdf">Manpage</a></li>
           <li><a href="http://folk.uio.no/inf3330/scripting/doc/gnuplot/Kawano/index-e.html" target="_blank">Not so FAQs</a></li>
           <li><a href="http://gnuplot-tricks.blogspot.com/" target="_blank">Tricks</a></li>
         </ul>
