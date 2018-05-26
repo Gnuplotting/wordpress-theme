@@ -24,6 +24,7 @@ get_header(); ?>
       <ul class="dropdown-menu">
         <li><a href="<?php echo site_url(); ?>/manpage-gnuplot-4-6/">Gnuplot 4.6</a></li>
         <li><a href="http://gnuplot.info/docs_5.0/gnuplot.pdf">Gnuplot 5.0</a></li>
+        <li><a href="http://gnuplot.info/docs_5.2/Gnuplot_5.2.pdf">Gnuplot 5.2</a></li>
       </ul>
     </li>
     <!--<li><a href="<?php echo site_url(); ?>/gallery.html">Gallery</a></li>-->
