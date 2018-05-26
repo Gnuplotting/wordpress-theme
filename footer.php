@@ -20,14 +20,14 @@
         </ul>
       </div><!-- </span3> -->
 
-      <div class="span2 offset1">
+      <div class="span2">
         <ul class="unstyled">
           <li><h5>Gnuplot</h5></li>
           <li><a href="http://gnuplot.info/download.html" target="_blank">Download</a></li>
           <li><a href="http://gnuplot.sourceforge.net/demo/" target="_blank">Demos</a></li>
           <li><a href="http://gnuplot.info/" target="_blank">News</a></li>
         </ul>
-      </div><!-- </span3> -->
+      </div><!-- </span2> -->
 
      <div class="span2">
         <ul class="unstyled">
