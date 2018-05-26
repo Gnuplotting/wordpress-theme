@@ -13,6 +13,15 @@
 
       <div class="span2 offset1">
         <ul class="unstyled">
+          <li><h5>Gnuplotting</h5></li>
+          <li><a href="http://www.gnuplotting.org/about/">About</a></li>
+          <li><a href="http://github.com/Gnuplotting" target="_blank">Github</a></li>
+          <li><a href="http://www.gnuplotting.org/data-privacy-statement/">Data privacy</a></li>
+        </ul>
+      </div><!-- </span3> -->
+
+      <div class="span2 offset1">
+        <ul class="unstyled">
           <li><h5>Gnuplot</h5></li>
           <li><a href="http://gnuplot.info/download.html" target="_blank">Download</a></li>
           <li><a href="http://gnuplot.sourceforge.net/demo/" target="_blank">Demos</a></li>
@@ -26,14 +35,6 @@
           <li><a href="http://gnuplot.info/docs_5.0/gnuplot.pdf">Manpage</a></li>
           <li><a href="http://folk.uio.no/inf3330/scripting/doc/gnuplot/Kawano/index-e.html" target="_blank">Not so FAQs</a></li>
           <li><a href="http://gnuplot-tricks.blogspot.com/" target="_blank">Tricks</a></li>
-        </ul>
-      </div><!-- </span2> -->
-
-      <div class="span2">
-        <ul class="unstyled">
-          <li><h5>Development</h5></li>
-          <li><a href="http://github.com/Gnuplotting" target="_blank">Github</a></li>
-          <li><a href="mailto:mail@gnuplotting.org">Ask a question</a></li>
         </ul>
       </div><!-- </span2> -->
 
